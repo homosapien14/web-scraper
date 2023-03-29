@@ -1,0 +1,26 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "intro",
+  "steps": [
+    {
+      "file": "index.js",
+      "description": "This function running the script for web-scraping",
+      "line": 5
+    },
+    {
+      "file": "src/scraper.js",
+      "description": "This is main logic of scraping and it is using axios, cheerio library to fetch the data from targeted web-site.",
+      "line": 4
+    },
+    {
+      "file": "src/csv-writer.js",
+      "description": "this function will take data from scrape function(just show previously) and save the required data into csv file.",
+      "line": 7
+    },
+    {
+      "file": "src/sqlite-writer.js",
+      "description": "This will also do same thing as previous csv-writer did but instead storing into csv it will store it into sqlite database.",
+      "line": 3
+    }
+  ]
+}
